@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+# Django-Manage.py
+
+
 """Django's command-line utility for administrative tasks."""
 import os
 import sys

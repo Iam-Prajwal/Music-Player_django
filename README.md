@@ -1,3 +1,5 @@
+# Something about this project...........
+
 # SpotifyClone-Django
 
 Spotify Clone App in Django
