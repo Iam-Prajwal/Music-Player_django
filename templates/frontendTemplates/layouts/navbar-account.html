@@ -4,7 +4,7 @@
                 <a class="navbar-brand" href="{% url 'home-index' %}">Spotify</a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        {% comment %} <li class="nav-item active">
                             <a class="nav-link" href="#">Premium</a>
                         </li>
                         <li class="nav-item">
@@ -15,7 +15,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Upgrade</a>
-                        </li>
+                        </li> {% endcomment %}
                         {% if user.is_authenticated %}
                         <li class="nav-item">
                             <a class="nav-link" href="#">{{ user.name }}</a>
