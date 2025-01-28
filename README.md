@@ -4,8 +4,7 @@
 2. Create a virtual environment "python -m venv your_environment_name"
 3. Activate your virtual environment ".\your_environment_name\Scripts\activate"
 4. Install Requirements Package "pip install -r requirements.txt"
-5. Navigate to Project Directory "cd SpotifyClone"
-8. Migrate Data into Database "python manage.py makemigrations" and "python manage.py migrate"
-9. Create SuperUser "python manage.py createsuperuser"
-10. Finally Run The Project "python manage.py runserver" and BOOOOM!!
+5. Migrate Data into Database "python manage.py makemigrations" and "python manage.py migrate"
+6. Create SuperUser "python manage.py createsuperuser"
+7. Finally Run The Project "python manage.py runserver" and BOOOOM!!
 
